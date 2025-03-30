@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistemas de Equações – Lucas Lima do Nascimento</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 40px;
+        background-color: #fefefe;
+        color: #222;
+      }
+      h1,
+      h2,
+      h3 {
+        color: #007acc;
+      }
+      code {
+        background-color: #eee;
+        padding: 2px 4px;
+        border-radius: 3px;
+      }
+      .exemplo,
+      .atividade {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        background-color: #f9f9f9;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sistemas de Equações do 1º Grau</h1>
+    <p>
+      Um sistema de equações do 1º grau é um conjunto de duas ou mais equações
+      lineares com duas variáveis, como <code>x</code> e <code>y</code>. O
+      objetivo é encontrar os valores que satisfazem todas as equações
+      simultaneamente.
+    </p>
+
+    <h2>Método da Substituição</h2>
+    <p>Passos:</p>
+    <ol>
+      <li>Isolar uma variável em uma das equações.</li>
+      <li>Substituir essa expressão na outra equação.</li>
+      <li>Resolver a equação resultante.</li>
+      <li>Substituir o valor encontrado para descobrir a outra variável.</li>
+    </ol>
+
+    <div class="exemplo">
+      <h3>Exemplo:</h3>
+      <p>Sistema:</p>
+      <p>
+        (1) x + y = 10<br />
+        (2) x - y = 4
+      </p>
+      <p><strong>Passo 1:</strong> Isolar o x na equação (2):</p>
+      <p>x = y + 4</p>
+      <p><strong>Passo 2:</strong> Substituir na equação (1):</p>
+      <p>(y + 4) + y = 10 → 2y + 4 = 10 → 2y = 6 → y = 3</p>
+      <p><strong>Passo 3:</strong> Substituir o valor de y na equação (2):</p>
+      <p>x - 3 = 4 → x = 7</p>
+      <p><strong>Solução:</strong> x = 7, y = 3</p>
+    </div>
+
+    <h2>Método da Adição (ou Eliminação)</h2>
+    <p>Passos:</p>
+    <ol>
+      <li>
+        Multiplicar as equações (se necessário) para que uma das variáveis tenha
+        coeficientes opostos.
+      </li>
+      <li>Somar ou subtrair as equações para eliminar uma variável.</li>
+      <li>Resolver a equação resultante.</li>
+      <li>Substituir o valor encontrado para achar a outra variável.</li>
+    </ol>
+
+    <div class="exemplo">
+      <h3>Exemplo:</h3>
+      <p>Sistema:</p>
+      <p>
+        (1) 2x + y = 7<br />
+        (2) 3x - y = 8
+      </p>
+      <p>
+        <strong>Passo 1:</strong> Somar as equações (os termos y se anulam):
+      </p>
+      <p>(2x + y) + (3x - y) = 7 + 8 → 5x = 15 → x = 3</p>
+      <p><strong>Passo 2:</strong> Substituir em qualquer equação:</p>
+      <p>2(3) + y = 7 → 6 + y = 7 → y = 1</p>
+      <p><strong>Solução:</strong> x = 3, y = 1</p>
+    </div>
+
+    <h2>Atividades</h2>
+
+    <div class="atividade">
+      <h3>1. Resolva pelo método da substituição:</h3>
+      <p>
+        (1) x + 2y = 12<br />
+        (2) x - y = 3
+      </p>
+    </div>
+
+    <div class="atividade">
+      <h3>2. Resolva pelo método da adição:</h3>
+      <p>
+        (1) 4x + 3y = 20<br />
+        (2) -4x + 2y = 4
+      </p>
+    </div>
+
+    <div class="atividade">
+      <h3>3. Desafio:</h3>
+      <p>
+        (1) 5x - 2y = 3<br />
+        (2) 3x + y = 10
+      </p>
+      <p>Escolha o método que preferir e resolva.</p>
+    </div>
+  </body>
+</html>
